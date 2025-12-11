@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const ctx = canvas.getContext('2d');
 
   // --- TEMPORARY FPS TRACKER ---
-  /*
+  
   const fpsDiv = document.createElement('div');
   Object.assign(fpsDiv.style, {
       position: 'fixed',
@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   let lastTime = performance.now();
   let frameCount = 0;
-  */
+  
 
   // --- CONFIGURATION ---
   const config = {
